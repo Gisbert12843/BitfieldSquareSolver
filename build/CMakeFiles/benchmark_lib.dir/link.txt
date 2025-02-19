@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc libbenchmark_lib.a CMakeFiles/benchmark_lib.dir/src/find_biggest_square.cpp.obj CMakeFiles/benchmark_lib.dir/src/find_biggest_square_dp.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe libbenchmark_lib.a
