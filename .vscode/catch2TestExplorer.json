@@ -1,0 +1,23 @@
+{
+    "catch2TestExplorer.executable": "./tests.exe",
+    "catch2TestExplorer.workingDirectory": "${workspaceFolder}",
+    "catch2TestExplorer.debugConfig": {
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  }
