@@ -8,9 +8,9 @@ set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 
 # Set the prefix path for vcpkg
-if(NOT CMAKE_PREFIX_PATH)
-    set(CMAKE_PREFIX_PATH "C:/DevTools/vcpkg/installed/x64-mingw-static" CACHE INTERNAL "")
-endif()
+# if(NOT CMAKE_PREFIX_PATH)
+#     set(CMAKE_PREFIX_PATH "C:/DevTools/vcpkg/installed/x64-mingw-static" CACHE INTERNAL "")
+# endif()
 
 # Collect source files (excluding main.cpp for the library)
 file(GLOB SRC_FILES "${CMAKE_SOURCE_DIR}/src/*.cpp")

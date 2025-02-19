@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/msys64/mingw64/bin/g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/msys64/mingw64/bin/gcc.exe"
 		},
 		{
@@ -863,11 +863,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : "C:/DevTools/vcpkg/installed/x64-mingw-static"
+			"type" : "UNINITIALIZED",
+			"value" : "C:/Users/wwwgi/vcpkg/installed/x64-mingw-static"
 		},
 		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
