@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
+
 project(Catch2Tests LANGUAGES CXX)
 
 # Find Catch2
