@@ -39,4 +39,4 @@ jobs:
 
     - name: Run tests
       working-directory: ./build
-      run: ../unit_test.exe
+      run: $GITHUB_WORKSPACE/BitfieldSquareSolver/BitfieldSquareSolver/build/unit_test.exe
