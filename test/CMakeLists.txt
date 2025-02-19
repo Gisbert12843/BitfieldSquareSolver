@@ -19,3 +19,7 @@ target_link_libraries(unit_test PRIVATE benchmark_lib Catch2::Catch2WithMain)
 target_include_directories(unit_test PRIVATE "${CMAKE_SOURCE_DIR}")
 
 target_compile_options(unit_test PRIVATE -O2)
+target_compile_definitions(unit_test PRIVATE 
+    -DCATCH_CONFIG_CONSOLE_WIDTH=120
+    -DCATCH_CONFIG_COLOUR_ANSI
+)

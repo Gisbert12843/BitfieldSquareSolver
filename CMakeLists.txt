@@ -22,7 +22,9 @@ add_library(benchmark_lib ${SRC_FILES})
 include_directories("${CMAKE_SOURCE_DIR}")
 list(REMOVE_ITEM SRC_FILES "${CMAKE_SOURCE_DIR}/src/main.cpp")
 
-
+if(NOT CMAKE_PREFIX_PATH)
+    set(CMAKE_PREFIX_PATH "C:/DevTools/vcpkg/installed/x64-mingw-static" CACHE INTERNAL "")
+endif() 
 # Create the main executable
 add_executable(main "${CMAKE_SOURCE_DIR}/src/main.cpp")
 
@@ -38,4 +40,5 @@ find_package(Catch2 CONFIG REQUIRED)
 
 # Enable testing and add test directory
 enable_testing()
+add_test(NAME unit_test COMMAND unit_test)
 add_subdirectory(test)

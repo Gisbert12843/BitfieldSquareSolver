@@ -37,6 +37,9 @@ jobs:
     - name: Build project
       run: cmake --build build --config Release --parallel
 
+    - name: Build tests
+      run: cmake --build build --target unit_test --config Release
+
     - name: Run tests
       working-directory: ./build
-      run: $GITHUB_WORKSPACE/BitfieldSquareSolver/BitfieldSquareSolver/unit_test/unit_test.exe
+      run: ctest --verbose --output-on-failure

@@ -1,0 +1,1 @@
+ ../libbenchmark_lib.a "C:/DevTools/vcpkg/installed/x64-mingw-static/lib/manual-link/libCatch2Main.a" "C:/DevTools/vcpkg/installed/x64-mingw-static/lib/libCatch2.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
